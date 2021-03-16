@@ -1,6 +1,6 @@
 Create Table #Input
 (
-inputvalue int
+inputvalue BIGINT
 )
 
 insert into #input
@@ -219,6 +219,21 @@ from
     #Input t2
 
 
+select 
+    distinct
+    t1.inputvalue as FirstNum,
+	t2.inputvalue as SecondNum,
+	t3.inputvalue as ThirdNum,
+	t1.inputvalue + t2.inputvalue + t3.inputvalue as AddedValue,
+	t1.inputvalue * t2.inputvalue * t3.inputvalue as MultipliedValue
+into #InputOptions2
+from 
+    #Input t1,
+    #Input t2,
+	#Input t3
+
 select * from #InputOptions where AddedValue = 2020
+select * from #InputOptions2 where AddedValue = 2020
 drop table #Input
 drop table #InputOptions
+drop table #InputOptions2
