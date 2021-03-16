@@ -3,6 +3,7 @@
 Json How Tos:
 -  Make IT Pretty https://jsonformatter.curiousconcept.com/#    
 - https://forums.asp.net/t/2126864.aspx?How+to+receive+JSON+object+in+POST+using+web+api
+- https://www.progress.com/blogs/how-to-create-an-edi-to-json-transformation
 
 Mongo DB:
 - https://docs.mongodb.com/guides/
