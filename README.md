@@ -7,3 +7,6 @@ Json How Tos:
 Tools:
 - MarkDown https://guides.github.com/features/mastering-markdown/
 - MIRO https://miro.com/app/dashboard/
+
+
+Scott Hanselman - https://www.hanselman.com/blog/tiny-toplevel-programs-with-c-9-and-smallsharp-and-visual-studio
